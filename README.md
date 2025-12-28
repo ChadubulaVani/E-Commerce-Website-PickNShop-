@@ -122,7 +122,7 @@ Backend integration using Node.js / Firebase / API
 
 Database integration for products and users
 
-## 🎥 Demo: 
+## 🎥 Demo: https://www.linkedin.com/posts/chadubula-vani-6634b0321_picknshop-webdevelopment-ecommerce-activity-7411042135677952000-wS89?utm_source=share&utm_medium=member_android&rcm=ACoAAFFovqsB7Q9CkhpSOGakJwzFW3s4J008rQc
 
 A demo video of this project has been created and shared on LinkedIn showcasing:
 
