@@ -78,7 +78,7 @@ E-COMMERCE WEBSITE
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/PickNShop.git
+   git clone https://github.com/ChadubulaVani/E-Commerce-Website-PickNShop-
 
 2. Open the project folder.
 
