@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Checkout | MyStore</title>
+    <link rel="stylesheet" href="css/checkout.css" />
+  </head>
+  <body>
+    <h2>Checkout</h2>
+
+    <form id="checkout-form">
+      <label>Full Name</label>
+      <input type="text" required />
+
+      <label>Address</label>
+      <textarea required></textarea>
+
+      <label>Phone</label>
+      <input type="tel" required />
+
+      <label>Payment Method</label>
+      <select>
+        <option>Cash on Delivery</option>
+        <option>Card (Demo)</option>
+      </select>
+
+      <button type="submit">Place Order</button>
+    </form>
+
+    <script src="js/checkout.js"></script>
+  </body>
+</html>

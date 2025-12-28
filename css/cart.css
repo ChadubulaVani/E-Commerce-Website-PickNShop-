@@ -1,0 +1,147 @@
+body {
+  background: #f4f6f8;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #111, #333);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h2 {
+  font-size: 26px;
+  letter-spacing: 1px;
+}
+
+/* Cart Items Container */
+#cart-items {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 15px;
+}
+
+/* Individual Cart Item */
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cart-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+}
+
+/* Product Info */
+.cart-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.cart-details {
+  flex: 1;
+  margin-left: 15px;
+}
+
+.cart-details h4 {
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.cart-details p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Price */
+.cart-price {
+  font-size: 16px;
+  font-weight: bold;
+  color: #111;
+}
+
+/* Remove Button */
+.remove-btn {
+  background: #ff4d4d;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.remove-btn:hover {
+  background: #e60000;
+}
+
+/* Cart Summary */
+.cart-summary {
+  max-width: 900px;
+  margin: 30px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.cart-summary h3 {
+  font-size: 22px;
+  color: #111;
+}
+
+/* Checkout Button */
+.cart-summary .btn {
+  background: linear-gradient(135deg, #ff9800, #ff6f00);
+  color: #fff;
+  padding: 14px 22px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.cart-summary .btn:hover {
+  background: linear-gradient(135deg, #ff6f00, #ff9800);
+  transform: scale(1.05);
+}
+
+/* Empty Cart Message */
+.empty-cart {
+  text-align: center;
+  font-size: 18px;
+  color: #777;
+  margin-top: 50px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .cart-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cart-details {
+    margin: 10px 0;
+  }
+
+  .cart-summary {
+    flex-direction: column;
+    text-align: center;
+  }
+}
